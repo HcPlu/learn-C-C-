@@ -110,6 +110,6 @@ int main(){
     cout << *p;
     cout << re;*/
    // const int i = 8,*p = &i;
-    int *p;
-    auto *&i = p;
+    int* p;
+    int* &i = p;
 }
